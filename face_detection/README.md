@@ -1,0 +1,1 @@
+Haar cascade bir resim veya videodaki objeleri tanýmlamak için kullanýlan metottur. Bu metot görüntüdeki pixelleri kareler halinde analiz ederek tanýmlamayý gerçekleþtirir.
