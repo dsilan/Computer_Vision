@@ -43,10 +43,14 @@ Eğer resimde bir dikdörtgen çizmek istersek -örneğin yüzü dikdörtgen iç
 
 opencv_tutorial_1.py dosyasında blogda kullandığı tetris resmini kullanarak edge detection, erosion, dilation ve image üzerine tect yazzdırma gibi temel işlemleri deneyip çalıştırdım.
 Bazı çıktılar:
+
 <img src="/opencv_tutorial/output/text.png" width="400px" >
+
 Eroded:
 <img src="/opencv_tutorial/output/eroded.png" width="400px" >
+
 Dilated:
 <img src="/opencv_tutorial/output/dilated.png" width="400px" >
+
 
 Source: https://www.pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/
