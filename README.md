@@ -3,11 +3,11 @@ Bu repo'da yüz/şekil/obje tanımlama, resimler üzerinde bazı temel işlemler
 
 face_detection kısmında iki farklı kaynaktan derlediğim yüz tanıma algoritmaları bulunmakta.
 
-<img src="cv/face_detection/output/alrobin.png" width="400px">
+<img src="./face_detection/output/alrobin.png" width="400px">
 
 ikinci klasörde üzerinde çalıştığım opencv alıştırmaları bulunmakta. ROI, GlaussianBlur, rectangle, edge detection, erosions, delations ve daha birçok alıştırma içermekte.
 
-<img src="cv/opencv_tutorial/output/rectangle.jpeg" width="400px">
+<img src="./opencv_tutorial/output/rec.jpeg" width="400px">
 
-<img src="cv/opencv_tutorial/output/text.jpeg" width="400px">
+<img src="./opencv_tutorial/output/text.png" width="400px">
 
