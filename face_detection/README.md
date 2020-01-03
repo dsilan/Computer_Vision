@@ -1,12 +1,12 @@
-Haar cascade bir resim veya videodaki objeleri tanımlamak için kullanılan metottur. Bu metot görüntüdeki pixelleri kareler halinde analiz ederek tanımlamayı gerçekleştirir. Görsel inputun farklı lokasyonlarına Haar özellikleri uygulanarak algoritma ilerler ve böylece tanımlanacak objeye adım adım yaklaşılmış olunur.
+Haar cascade bir resim veya videodaki objeleri tanÄ±mlamak iÃ§in kullanÄ±lan metottur. Bu metot gÃ¶rÃ¼ntÃ¼deki pixelleri kareler halinde analiz ederek tanÄ±mlamayÄ± gerÃ§ekleÅŸtirir. GÃ¶rsel inputun farklÄ± lokasyonlarÄ±na Haar Ã¶zellikleri uygulanarak algoritma ilerler ve bÃ¶ylece tanÄ±mlanacak objeye adÄ±m adÄ±m yaklaÅŸÄ±lmÄ±ÅŸ olunur.
 
 Source: https://www.youtube.com/watch?v=PmZ29Vta7Vc http://www.willberger.org/cascade-haar-explained/
 
-dnn OpenCV içerisinde yer alan, görüntü dataları için preprocessing yaparken ve önceden eğitilmiş deep learning modelleriyle sınıflandırma yaparken kullanabildiğimiz bir modüldür.
-Caffe, Darknet, Tensorflow gibi modelleri de dnn modülüyle birlikte kullanabiliyoruz.
-detect_faces_image.py kodunu çalıştırmak için komut:
+dnn OpenCV iÃ§erisinde yer alan, gÃ¶rÃ¼ntÃ¼ datalarÄ± iÃ§in preprocessing yaparken ve Ã¶nceden eÄŸitilmiÅŸ deep learning modelleriyle sÄ±nÄ±flandÄ±rma yaparken kullanabildiÄŸimiz bir modÃ¼ldÃ¼r.
+Caffe, Darknet, Tensorflow gibi modelleri de dnn modÃ¼lÃ¼yle birlikte kullanabiliyoruz.
+detect_faces_image.py kodunu Ã§alÄ±ÅŸtÄ±rmak iÃ§in komut:
 
-python detect_faces_image.py --image ./deep-learning-face-detection/deneme.jpg --prototxt ./deep-learning-face-detection/deploy.prototxt.txt  --model ./deep-learning-face-detection/res10_300x300_ssd_iter_140000.caffemodel
+python detect_faces_image.py --image ../../images/alrobin.jpg --prototxt ./model/deploy.prototxt.txt --model model/res10_300x300_ssd_iter_140000.caffemodel
 
 
 Source: https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
